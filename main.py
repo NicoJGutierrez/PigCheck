@@ -3,9 +3,12 @@ import base64
 from PIL import Image
 from io import BytesIO
 import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 # Load and encode the image
-image_path = "/home/hgrafe/Downloads/BMC-slat-floor-1.jpg"
+image_path = os.path.join(os.path.dirname(__file__), "images/image.png")
 with open(image_path, "rb") as image_file:
     image_base64 = base64.b64encode(image_file.read()).decode("utf-8")
 
