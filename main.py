@@ -5,6 +5,7 @@ from PIL import Image
 from io import BytesIO
 import os
 from dotenv import load_dotenv
+import json
 
 load_dotenv()
 
@@ -66,3 +67,11 @@ for image_file in image_files:
 # Print all answers
 for idx, answer in enumerate(answers):
     print(f"Answer for {image_files[idx]}:", answer)
+
+
+# Save answers to a JSON file
+output_file = os.path.join(os.path.dirname(__file__), "answers.json")
+with open(output_file, "w") as f:
+    json.dump([answer.model_dump() for answer in answers], f, indent=4)
+
+print(f"Answers saved to {output_file}")

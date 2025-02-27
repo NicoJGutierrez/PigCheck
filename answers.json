@@ -1,0 +1,176 @@
+[
+    {
+        "amount_of_pigs": 1,
+        "environment": "outdoor field with grass and shrubs",
+        "positive_behaviours": [],
+        "negative_behaviours": [],
+        "health_issues": [],
+        "posture": [
+            "sitting position"
+        ]
+    },
+    {
+        "amount_of_pigs": 1,
+        "environment": "outdoor, dirt ground with sparse vegetation",
+        "positive_behaviours": [],
+        "negative_behaviours": [],
+        "health_issues": [],
+        "posture": [
+            "lying down without legs stretched out"
+        ]
+    },
+    {
+        "amount_of_pigs": 1,
+        "environment": "Outdoor area with grass and some shrubs",
+        "positive_behaviours": [],
+        "negative_behaviours": [
+            "worried or anxious expression on the face"
+        ],
+        "health_issues": [],
+        "posture": [
+            "standing"
+        ]
+    },
+    {
+        "amount_of_pigs": 8,
+        "environment": "indoor pen with slatted flooring",
+        "positive_behaviours": [],
+        "negative_behaviours": [],
+        "health_issues": [],
+        "posture": [
+            "lying down without legs stretched out",
+            "standing"
+        ]
+    },
+    {
+        "amount_of_pigs": 1,
+        "environment": "enclosed space",
+        "positive_behaviours": [
+            "feeding"
+        ],
+        "negative_behaviours": [],
+        "health_issues": [],
+        "posture": [
+            "standing"
+        ]
+    },
+    {
+        "amount_of_pigs": 1,
+        "environment": "grassland",
+        "positive_behaviours": [],
+        "negative_behaviours": [],
+        "health_issues": [],
+        "posture": [
+            "sitting position"
+        ]
+    },
+    {
+        "amount_of_pigs": 5,
+        "environment": "enclosed pen with plastic slatted flooring",
+        "positive_behaviours": [],
+        "negative_behaviours": [],
+        "health_issues": [],
+        "posture": [
+            "standing",
+            "in motion"
+        ]
+    },
+    {
+        "amount_of_pigs": 4,
+        "environment": "Indoor enclosure with grid flooring",
+        "positive_behaviours": [],
+        "negative_behaviours": [],
+        "health_issues": [],
+        "posture": [
+            "standing",
+            "in motion"
+        ]
+    },
+    {
+        "amount_of_pigs": 1,
+        "environment": "straw bedding",
+        "positive_behaviours": [],
+        "negative_behaviours": [
+            "worried or anxious expression on the face"
+        ],
+        "health_issues": [
+            "open wounds",
+            "wrinkles to the mouth"
+        ],
+        "posture": [
+            "standing"
+        ]
+    },
+    {
+        "amount_of_pigs": 1,
+        "environment": "muddy area with grass and water",
+        "positive_behaviours": [
+            "wallowing"
+        ],
+        "negative_behaviours": [],
+        "health_issues": [],
+        "posture": [
+            "lying down without legs stretched out"
+        ]
+    },
+    {
+        "amount_of_pigs": 1,
+        "environment": "indoor pen",
+        "positive_behaviours": [],
+        "negative_behaviours": [
+            "worried or anxious expression on the face"
+        ],
+        "health_issues": [
+            "open wounds"
+        ],
+        "posture": [
+            "standing"
+        ]
+    },
+    {
+        "amount_of_pigs": 3,
+        "environment": "indoor pen",
+        "positive_behaviours": [
+            "nosing other pig"
+        ],
+        "negative_behaviours": [],
+        "health_issues": [],
+        "posture": [
+            "standing",
+            "in motion"
+        ]
+    },
+    {
+        "amount_of_pigs": 2,
+        "environment": "indoor pen or stall with dirty floor",
+        "positive_behaviours": [],
+        "negative_behaviours": [
+            "biting other pig on the flank"
+        ],
+        "health_issues": [],
+        "posture": [
+            "standing",
+            "in motion"
+        ]
+    },
+    {
+        "amount_of_pigs": 1,
+        "environment": "enclosed space with dirt floor and concrete walls",
+        "positive_behaviours": [],
+        "negative_behaviours": [],
+        "health_issues": [],
+        "posture": [
+            "lying down without legs stretched out"
+        ]
+    },
+    {
+        "amount_of_pigs": 1,
+        "environment": "outdoor, dirt ground",
+        "positive_behaviours": [],
+        "negative_behaviours": [],
+        "health_issues": [],
+        "posture": [
+            "lying down without legs stretched out"
+        ]
+    }
+]
