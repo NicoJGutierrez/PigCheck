@@ -1,0 +1,16 @@
+image,amount_of_pigs,environment,positive_behaviours,negative_behaviours,health_issues,posture,good_environment,welfare_red_flag
+domestic_pig2.jpg,1,grassland with bushes,[],['worried or anxious expression on the face'],[],['standing'],0,1
+pig_erysipelas.jpeg,1,straw bedding,[],[],"['open wounds', 'glazed eyes']",['standing'],1,1
+pig_skin_problem.jpg,1,indoors,[],['worried or anxious expression on the face'],['open wounds'],['standing'],0,1
+pig_tail_biting.jpg,2,"Indoor, likely a barn setting with dirt or bedding on the floor",[],['biting other pig on the flank or tail'],[],"['standing', 'in motion']",0,1
+a-pig-sitting-down-and-staring-at-the-camera.jpg,1,outdoor field with grass,[],[],[],['sitting position'],1,0
+a-white-free-range-pig-laying-down-in-the-dirt.jpg,1,"outdoor, forested area with dirt ground",[],[],[],['lying down without legs stretched out'],1,0
+example_pig1.jpg,8,indoor pen with concrete floor and feeding troughs,[],[],[],"['lying down without legs stretched out', 'standing', 'in motion']",0,0
+image.png,1,indoor pen with dry ground and some greenery,['feeding'],[],[],"['standing', 'feeding']",0,0
+pig-sitting-on-a-mountain-pasture.jpg,1,outdoor grassland,[],[],[],['sitting position'],1,0
+pigs_from_above.jpg,5,enclosed pen with a slatted floor,[],[],[],"['standing', 'in motion']",0,0
+pigs_from_above2.jpg,4,indoor pen with grid flooring,[],[],[],"['standing', 'in motion']",0,0
+pig_in_puddle.jpeg,1,"outdoor, grassy area with mud and water",['wallowing'],[],[],['lying down without legs stretched out'],1,0
+pig_tail_bite2.png,2,"indoor setting, likely a pen or barn",['social interaction'],[],[],"['standing', 'in motion']",0,0
+stock-photo-black-pig-lying-down-watching-the-camera4.jpg,1,enclosed space with dirt floor and walls made of stone or concrete,[],[],[],['lying down without legs stretched out'],0,0
+white-black-spotted-pig-lying-down-in-a-farm.jpg,1,"outdoors, dirt ground",[],[],[],['lying down without legs stretched out'],1,0
