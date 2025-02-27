@@ -24,13 +24,20 @@ client = openai.OpenAI(
 
 class Answer(BaseModel):
     amount_of_pigs: int
-    how_cramped_is_each_pig: list[str]
-    pig_happiness: list[int]
-    explanation: str
+    estimated_age: list[int]
+    positive_behaviours: list[str]
+    negative_behaviours: list[str]
+    health_issues: list[str]
+    posture: list[str]
 
 
 # Define the question and request format
-question = "Estimate the amount of pigs in the image and how cramped each pig is. Also, estimate the happiness of each pig on a scale from 1 to 10. Provide an explanation for your answer."
+question = """You are a welfare biologist labelling images of pigs to be used in a dataset for classifing pig welfare. 
+For each image, return succinct notes on these dimensions: number of pigs, positive behaviors, negative behaviors, health issues, estimated age, and posture. Below are examples of some of those dimensions. Only turn concise labels on what you do observe in the image for each dimension.
+Positive behaviors: panting, wallowing, digging, rolling around
+Negative behavior: pinned-back ears, worried or anxious expression on the face, biting other pig on the flank or tail (as indicated by having their mouth open in the direction of another pig).
+Health issues: open wounds, dolphin-shaped nose, bulging eyes, wrinkles to the mouth, dry “crispy” gums, glazed eyes, drooling from the mouth, bright red skin around the eyes and tongue, bloody tears.
+Posture: dog-sitting position, lying down with legs stretched out, lying down without legs stretched out, feeding, standing, in motion"""
 response = client.beta.chat.completions.parse(
     model="gpt-4o-mini",
     messages=[
