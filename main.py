@@ -1,5 +1,6 @@
 import openai
 import base64
+from pydantic import BaseModel
 from PIL import Image
 from io import BytesIO
 import os
@@ -18,10 +19,20 @@ client = openai.OpenAI(
     api_key=os.getenv("OPENAI_API_KEY")
 )
 
+# Define the answer format
+
+
+class Answer(BaseModel):
+    amount_of_pigs: int
+    how_cramped_is_each_pig: list[str]
+    pig_happiness: list[int]
+    explanation: str
+
+
 # Define the question and request format
-question = "question en Estimate the amount of area in square meters the pigs can evolve in, and the number of pigs. The last line must be your best estimate of the area as a float without anything else than the number, and the line before that must be an int without anything else than the number"
-response = client.chat.completions.create(
-    model="gpt-4-turbo",
+question = "Estimate the amount of pigs in the image and how cramped each pig is. Also, estimate the happiness of each pig on a scale from 1 to 10. Provide an explanation for your answer."
+response = client.beta.chat.completions.parse(
+    model="gpt-4o-mini",
     messages=[
         {
             "role": "user",
@@ -32,9 +43,10 @@ response = client.chat.completions.create(
             ]
         }
     ],
+    response_format=Answer,
     max_tokens=300
 )
 
 # Extract and print the answer
-answer = response.choices[0].message.content
+answer = response.choices[0].message.parsed
 print("Answer:", answer)
