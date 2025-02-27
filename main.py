@@ -68,10 +68,14 @@ for image_file in image_files:
 for idx, answer in enumerate(answers):
     print(f"Answer for {image_files[idx]}:", answer)
 
-
-# Save answers to a JSON file
+# Save answers to a JSON file with image names
 output_file = os.path.join(os.path.dirname(__file__), "answers.json")
 with open(output_file, "w") as f:
-    json.dump([answer.model_dump() for answer in answers], f, indent=4)
+    json.dump(
+        [{"image": image_files[idx], **answer.model_dump()}
+            for idx, answer in enumerate(answers)],
+        f,
+        indent=4
+    )
 
 print(f"Answers saved to {output_file}")

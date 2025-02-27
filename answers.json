@@ -1,7 +1,8 @@
 [
     {
+        "image": "a-pig-sitting-down-and-staring-at-the-camera.jpg",
         "amount_of_pigs": 1,
-        "environment": "outdoor field with grass and shrubs",
+        "environment": "outdoor field with grass",
         "positive_behaviours": [],
         "negative_behaviours": [],
         "health_issues": [],
@@ -10,8 +11,9 @@
         ]
     },
     {
+        "image": "a-white-free-range-pig-laying-down-in-the-dirt.jpg",
         "amount_of_pigs": 1,
-        "environment": "outdoor, dirt ground with sparse vegetation",
+        "environment": "outdoor, forested area with dirt ground",
         "positive_behaviours": [],
         "negative_behaviours": [],
         "health_issues": [],
@@ -20,8 +22,9 @@
         ]
     },
     {
+        "image": "domestic_pig2.jpg",
         "amount_of_pigs": 1,
-        "environment": "Outdoor area with grass and some shrubs",
+        "environment": "grassland with bushes",
         "positive_behaviours": [],
         "negative_behaviours": [
             "worried or anxious expression on the face"
@@ -32,31 +35,36 @@
         ]
     },
     {
+        "image": "example_pig1.jpg",
         "amount_of_pigs": 8,
-        "environment": "indoor pen with slatted flooring",
+        "environment": "indoor pen with concrete floor and feeding troughs",
         "positive_behaviours": [],
         "negative_behaviours": [],
         "health_issues": [],
         "posture": [
             "lying down without legs stretched out",
-            "standing"
+            "standing",
+            "in motion"
         ]
     },
     {
+        "image": "image.png",
         "amount_of_pigs": 1,
-        "environment": "enclosed space",
+        "environment": "indoor pen with dry ground and some greenery",
         "positive_behaviours": [
             "feeding"
         ],
         "negative_behaviours": [],
         "health_issues": [],
         "posture": [
-            "standing"
+            "standing",
+            "feeding"
         ]
     },
     {
+        "image": "pig-sitting-on-a-mountain-pasture.jpg",
         "amount_of_pigs": 1,
-        "environment": "grassland",
+        "environment": "outdoor grassland",
         "positive_behaviours": [],
         "negative_behaviours": [],
         "health_issues": [],
@@ -65,8 +73,9 @@
         ]
     },
     {
+        "image": "pigs_from_above.jpg",
         "amount_of_pigs": 5,
-        "environment": "enclosed pen with plastic slatted flooring",
+        "environment": "enclosed pen with a slatted floor",
         "positive_behaviours": [],
         "negative_behaviours": [],
         "health_issues": [],
@@ -76,8 +85,9 @@
         ]
     },
     {
+        "image": "pigs_from_above2.jpg",
         "amount_of_pigs": 4,
-        "environment": "Indoor enclosure with grid flooring",
+        "environment": "indoor pen with grid flooring",
         "positive_behaviours": [],
         "negative_behaviours": [],
         "health_issues": [],
@@ -87,23 +97,23 @@
         ]
     },
     {
+        "image": "pig_erysipelas.jpeg",
         "amount_of_pigs": 1,
         "environment": "straw bedding",
         "positive_behaviours": [],
-        "negative_behaviours": [
-            "worried or anxious expression on the face"
-        ],
+        "negative_behaviours": [],
         "health_issues": [
             "open wounds",
-            "wrinkles to the mouth"
+            "glazed eyes"
         ],
         "posture": [
             "standing"
         ]
     },
     {
+        "image": "pig_in_puddle.jpeg",
         "amount_of_pigs": 1,
-        "environment": "muddy area with grass and water",
+        "environment": "outdoor, grassy area with mud and water",
         "positive_behaviours": [
             "wallowing"
         ],
@@ -114,8 +124,9 @@
         ]
     },
     {
+        "image": "pig_skin_problem.jpg",
         "amount_of_pigs": 1,
-        "environment": "indoor pen",
+        "environment": "indoors",
         "positive_behaviours": [],
         "negative_behaviours": [
             "worried or anxious expression on the face"
@@ -128,10 +139,11 @@
         ]
     },
     {
-        "amount_of_pigs": 3,
-        "environment": "indoor pen",
+        "image": "pig_tail_bite2.png",
+        "amount_of_pigs": 2,
+        "environment": "indoor setting, likely a pen or barn",
         "positive_behaviours": [
-            "nosing other pig"
+            "social interaction"
         ],
         "negative_behaviours": [],
         "health_issues": [],
@@ -141,11 +153,12 @@
         ]
     },
     {
+        "image": "pig_tail_biting.jpg",
         "amount_of_pigs": 2,
-        "environment": "indoor pen or stall with dirty floor",
+        "environment": "Indoor, likely a barn setting with dirt or bedding on the floor",
         "positive_behaviours": [],
         "negative_behaviours": [
-            "biting other pig on the flank"
+            "biting other pig on the flank or tail"
         ],
         "health_issues": [],
         "posture": [
@@ -154,8 +167,9 @@
         ]
     },
     {
+        "image": "stock-photo-black-pig-lying-down-watching-the-camera4.jpg",
         "amount_of_pigs": 1,
-        "environment": "enclosed space with dirt floor and concrete walls",
+        "environment": "enclosed space with dirt floor and walls made of stone or concrete",
         "positive_behaviours": [],
         "negative_behaviours": [],
         "health_issues": [],
@@ -164,8 +178,9 @@
         ]
     },
     {
+        "image": "white-black-spotted-pig-lying-down-in-a-farm.jpg",
         "amount_of_pigs": 1,
-        "environment": "outdoor, dirt ground",
+        "environment": "outdoors, dirt ground",
         "positive_behaviours": [],
         "negative_behaviours": [],
         "health_issues": [],
